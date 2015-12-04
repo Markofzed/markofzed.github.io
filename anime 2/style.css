@@ -2,9 +2,7 @@ body{
 	background:black;
 	font-style:font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;;
 }
-img{
-	padding:2%;
-}
+
 p{
 	margin: 0    0      0       0;
 }
@@ -12,16 +10,17 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
-
+img{
+	padding:3%;
+}
 a:hover {
   color: red;
   text-decoration: underline;
 }
 #intro{
-	width:300px;
-	height:70px;
-	position:relative;
-	left:-100px;
+	width:400px;
+	height:213.33px;
+	
 }
 
 #box{
@@ -33,7 +32,7 @@ a:hover {
 	margin-top:10%;
 }
 #box1{
-	padding:1%;
+	padding:2%;
 	color:#e6e6e6;
 	width:88%;
 	height:auto;
@@ -61,6 +60,7 @@ a:hover {
 	float:left;
 	margin-left:5%;
 	color:#e6e6e6;
+	padding:1%;
 }
 #info{
 	width:400px;

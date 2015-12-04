@@ -2,8 +2,8 @@ body{
 	background:black;
 }
 #intro{	
-	width:40%;
-	height:auto;
+	width:400px;
+	height:213.3333px;
 	margin: 0 auto;
 	margin-top:8%;
 	margin-bottom:5%;
@@ -12,13 +12,12 @@ body{
 }
 
 img{
-	max-width:100%;
+	width:100%;
 	height:auto;
-	margin-top:6%;
 }
 #write{
-	padding: 5%;
 	margin: 0 auto;
+	margin-bottom:5%;
 	width:70%;
 	height:auto;
 	font-size:10px;
@@ -84,6 +83,7 @@ object{
 	border-width:2px;
 	margin-bottom:10%;
 	float:left;
+	margin-top:95px;
 }.
 
 #four{
@@ -103,7 +103,6 @@ object{
 	border-width:2px;
 	margin-top:10%;
 	float:left;
-	position:absolute;
 }
 
 
@@ -112,18 +111,22 @@ object{
 	height:auto;
 	margin-left:25%;
 	float:left;
-	margin-top:20%;
+	position:relative;
+	top:10%;
 }
 
-img{
-	margin-top:-5%;
+#image{
+	max-width:100%;
+	height:auto;
+	position:relative;
+	top:100px;
 }
 .bio{
 	width:300px;
 	height:300px;
 	position:relative;
 	left:22%;
-	top:100px;
+	top:
 }
 #p1{
 	max-width:100%;
@@ -135,40 +138,18 @@ img{
 	font-size:13px;font-weight:200;
 	position:relative;
 	float:left;
-	top:87%;
+
 	
 	
 	
 }
 
-#p2{
-	max-width:100%;
-	height:300px;
-	font-family: ‘Courier New’, Courier, monospace;
-	color:white;
-	text-align:justify;
-	font-size:100%;
-	font-size:13px;font-weight:200;
-	position:relative;
-	float:left;
-	top:87%;	
 
+#linkbox{
+	width:89%;
+	height:auto;
+	margin:0 auto;
 }
-
-#p3{
-	max-width:100%;
-	height:300px;
-	font-family: ‘Courier New’, Courier, monospace;
-	color:white;
-	text-align:justify;
-	font-size:100%;
-	font-size:13px;font-weight:200;
-	position:relative;
-	float:left;
-	top:87%;	
-	left:10%;
-}
-
 .links{ 
 	max-width:500px;
 	height:100px;
@@ -187,18 +168,25 @@ img{
 	top:5%;
 }
 
+#box{
+	width:100%;
+	height:auto;
+	float:left;
+
+}
 #box1{
 	width:460px;
-	height:700px;
+	height:830px;
 	float:left;
+	position:relative;
+	margin-left:2%;
 }
 #box2{
 	width:480px;
 	height:400px;
 	float:right;
-	position:relative;
-	top:150px;
-	right:4%;
+	margin-top:15px;
+	margin-right:7%;
 }
 #watch{
 	width:70%;
@@ -228,7 +216,7 @@ img{
 	margin-left: 2%;
 	margin-top: 4%;
 	position:relative;
-	top:15px;	
+	top:-5px;
 }
 .anime{
 	line-height:0px;
@@ -254,7 +242,7 @@ img{
 	font-size: 1.5em;
 	position: relative;
 	top: -40px;
-	left:430px;
+	left:400px;
 	width: 289px;
 	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
@@ -263,22 +251,22 @@ img{
 	
 }
 #manga img{
+	width:90%;
+	height:auto;
 	margin-right:3%;
 	 opacity: 1.0;
 }
 #read{
-	width:70%;
+	width:60%;
 	height:auto;
-	margin: 0 auto;
+	margin-left:10%;
 }
 
 #manga{
-	width:490px;
+	width:300px;
 	height:350px;
 	position:relative;
 	top:10px;
-	left:3%;
-	border-bottom:solid white; 
 	margin-right:2%;
 }
 
@@ -314,6 +302,4 @@ img{
 	width:300px;
 	height:100px;
 	float:right;
-	position:relative;
-	top:100px;
 }

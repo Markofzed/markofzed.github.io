@@ -1,0 +1,97 @@
+Body{
+	background:black;
+}
+h1{
+	padding:2%;
+	float:bottom;
+	color:#404040;
+	margin-left:3%;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 26.4px;
+	text-decoration:bold;
+	margin-bottom:3%;
+}
+h2{
+	float:bottom;
+	color:#404040;
+	margin-left:3%;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: heavier;
+	line-height: 26.4px;
+	text-decoration:bold;
+	
+}
+a{
+	color:#404040;
+	text-decoration:none;
+}
+h2:hover{
+	color:#0072e6;
+}
+#intro{
+	width:400px;
+	height:213.333px;
+	margin-bottom:10%;
+	margin-left:3%;
+}
+#vid{
+	width:78%;
+	height:auto;
+	border:solid white 1px;
+	position:absolute;
+	background:#d9d9d9;
+	margin-left:10%;
+	margin-bottom:10%;
+}
+
+#vidlinks{
+	width:100%;
+	height:auto;
+	float:left;
+}
+.title{
+	width:320px;
+	height:70px;
+	float:left;
+	margin: -1% 1% 1% 1%;
+	
+}
+.item-video img{
+	width:330px;
+	height:180px;
+	float:left;
+	margin: 5px 5px 5px 5px;
+	margin-left:1%;
+	margin-top:5%;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	margin-bottom:-2%;
+}
+
+ #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+		margin-top:5%;
+}
+
+#top1{
+	width:400px;
+	height:100px;
+	float:right;
+	position:relative;
+	top:105px;
+	
+}
